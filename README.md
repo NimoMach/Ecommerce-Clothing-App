@@ -65,7 +65,7 @@ Add links/screenshots/gif of the app here.
 
 ```
 /Ecommerce-App
-├─ /frontend                # frontend
+├─ /admin                # admin
 │  ├─ /src
 |  |  ├─ /assets
 │  │  ├─ /components
