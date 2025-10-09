@@ -89,9 +89,12 @@ Add links/screenshots/gif of the app here.
 ```
 
 
-## License
+## Admin page on login
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+<img width="200" height="200" alt="Screenshot 2025-10-09 120652" src="https://github.com/user-attachments/assets/4adcdb6a-1ef7-4638-a330-f52cc6489a68" />
+<img width="200" height="200" alt="Screenshot 2025-10-09 120707" src="https://github.com/user-attachments/assets/74041bcd-8926-4bc7-bfd0-c833460f54d2" />
+<img width="200" height="200" alt="Screenshot 2025-10-09 120752" src="https://github.com/user-attachments/assets/09b314e3-4bf2-4bc6-a40d-258a2f7783e5" />
+
 
 ---
 
