@@ -14,7 +14,7 @@ const ProductItem = ({ id, name, image, price }) => {
           className="w-full h-44 object-cover rounded-md mb-3"
         />
         <div className='flex flex-col items-start'>
-          <h3 className="font-semibold text-lg mb-1 truncate">{name}</h3>
+          <h3 className="font-semibold text-lg mb-1 break-words whitespace-normal">{name}</h3>
           <p className="text-gray-600 mb-3">{currency}{price}</p>
           <Link to={`/product/${id}`} className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-700 transition-colors">
             View More
