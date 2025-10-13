@@ -16,7 +16,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
   return (
-    <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+    <div className='container px-4 overflow-x:hidden max-w-full'>
       <ToastContainer position="top-right"/>
       <Navbar />
       <SearchBar />

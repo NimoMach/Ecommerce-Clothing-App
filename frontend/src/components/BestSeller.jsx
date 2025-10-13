@@ -9,7 +9,7 @@ const BestSeller = () => {
 
   useEffect(() => {
     const bestSellers = products.filter((product) => (product.bestSeller));
-    setBestSeller(bestSellers.slice(0, 10));
+    setBestSeller(bestSellers.reverse().slice(0, 10));
   }, [products]);
   return (
     <>
