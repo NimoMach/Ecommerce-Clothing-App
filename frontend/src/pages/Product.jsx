@@ -78,22 +78,6 @@ const Product = () => {
           <p><span className='font-semibold'>Quality Checked:</span> Each product is thoroughly checked before dispatch</p>
           <p><span className='font-semibold'>Best Price:</span> We offer the best prices on all products</p>
         </div>
-
-        <hr className='my-6'/>
-        <div className='flex gap-6'>
-          <div className='flex items-center gap-3 cursor-pointer'>
-            <img src={assets.full_rating_star} alt="star" className='w-5 h-5'/>
-            <p className='text-sm'>Write a Review</p>
-          </div>
-          <div className='flex items-center gap-3 cursor-pointer'>
-            <img src={assets.heart} alt="heart" className='w-5 h-5'/>
-            <p className='text-sm'>Add to Wishlist</p>
-          </div>
-          <div className='flex items-center gap-3 cursor-pointer'>
-            <img src={assets.share} alt="share" className='w-5 h-5'/>
-            <p className='text-sm'>Share</p>
-          </div>
-        </div>
         
       </div>
       
