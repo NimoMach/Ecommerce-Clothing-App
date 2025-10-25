@@ -15,7 +15,7 @@ const RelatedProducts = ({productData}) => {
         </div>
       <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4'>
         {
-          products.slice(0,5).map((item)=>(
+          products.slice(0,5).filter((item)=>(
             item._id!==productData._id && item.category===productData.category&& item.subCategory===productData.subCategory &&
             <div key={item._id} className='text-gray-700 cursor-pointer'>
               <ProductItem id={item._id} name={item.name} image={item.image[0]} price={item.price} />
